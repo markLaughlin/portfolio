@@ -6,12 +6,20 @@ html {
     height: 100%;
 }
 
-.i-blocked {
-    display: inline-block;
+.outer {
+    width: 1200px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.inlined {
-    display: inline;
+article{
+    width: 500px;
+    height: 530px;
+}
+
+.i-blocked {
+    display: inline-block;
 }
 
 body {
@@ -20,6 +28,7 @@ body {
     color: #444;
     text-align: center;
     line-height: 26px;
+    border: 1px solid black;
 }
 
 nav, footer{
@@ -48,15 +57,33 @@ img {
     object-fit: cover; 
 }
 
- .surround {
+.surround {
     height: 400px;
     width: 500px;  
     border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
     }
+
+.links {
+    height: 30px;
+    width: 500px;
+}
+
+.text {
+    height: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .centered {
     margin-left: auto;
     margin-right: auto;
+}
+
+a:focus {
+     background-color: yellow;
 }
 
 .apart {
